@@ -1,0 +1,89 @@
+.background {
+  background-color: rgba(213, 184, 255, 0.2);
+}
+
+.flex {
+  display: flex;
+}
+
+.remove-decoration {
+  text-decoration: none;
+  color:black;
+}
+
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+}
+
+.album-card {
+  height: 25vh;
+  width: 25vh;
+  margin: 30px;
+}
+
+.album-photo {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.add-to-cart:hover {
+  visibility: visible;
+  background-color: rgba(213, 184, 255, 1);
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.center-header-text {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.bold-font {
+  font-weight: 600;
+}
+
+.checkout {
+  background-color: rgba(213, 184, 255, 1);
+  border-radius: 20px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active-city {
+  color: 'purple';
+}
+
+.navbar-nav .active {
+  color: 'purple' !important;
+}
